@@ -1,6 +1,9 @@
 .looking {
   display: block;
   margin: 30px 15px;
+  @media all and (min-width: 768px) {
+    margin: 30px 40px 30px 40px;
+  }
 
   &__tips {
     color: $color-tips;
@@ -15,6 +18,10 @@
     text-transform: capitalize;
     color: $primary-text;
     margin-bottom: 15px;
+    @media all and (min-width: 768px) {
+      font-size: 26px;
+      margin-bottom: 30px;
+    }
   }
   &__text {
     font-size: 18px;
@@ -22,6 +29,9 @@
     line-height: 30px;
     color: $secundary-text;
     margin-bottom: 30px;
+    @media all and (min-width: 768px) {
+      font-size: 20px;
+    }
   }
   &__button {
     display: flex;
@@ -32,6 +42,10 @@
     border-radius: 22.5px;
     border: 2px solid #f26002;
     margin-bottom: 45px;
+    @media all and (min-width: 768px) {
+      margin-bottom: 60px;
+      width: 91px;
+    }
   }
 }
 .go-button {
@@ -45,34 +59,49 @@
 /*------------------------------*/
 .reasons {
   background-color: $color-reasons;
-  padding-top: 30px;
-  padding-bottom: 60px;
   text-align: center;
+  padding: 30px 45px;
+
   &__title {
     font-family: $title-font;
     font-size: 24px;
     padding: 0 15px;
     margin-bottom: 45px;
     text-transform: capitalize;
+    @media all and (min-width: 768px) {
+      font-size: 26px;
+    }
   }
 }
+
 .reasons-section {
   display: grid;
   grid-template-columns: 180px;
   grid-template-rows: 1fr 1fr 1fr;
   justify-content: center;
   align-items: center;
+  @media all and (min-width: 768px) {
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr;
+  }
   &__container {
     &--title {
       font-size: 18px;
       font-family: $title-font;
       line-height: 30px;
+      @media all and (min-width: 768px) {
+        font-size: 24px;
+      }
     }
     &--text {
       font-size: 18px;
       font-family: $text-font;
       line-height: 30px;
       margin-bottom: 45px;
+      @media all and (min-width: 768px) {
+        font-size: 20px;
+        margin-bottom: 60px;
+      }
     }
   }
 }

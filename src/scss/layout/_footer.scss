@@ -18,18 +18,37 @@
   }
   text-align: center;
   padding: 60px 0 45px 0;
+
+  @media all and (min-width: 768px) {
+    display: flex;
+    flex-direction: row;
+    text-align: left;
+    justify-content: space-between;
+    padding: 45px 40px 45px 40px;
+    @media all and (min-width: 1200px) {
+      justify-content: center;
+      .container {
+        padding: 30px;
+      }
+    }
+  }
   &__links {
     padding-bottom: 30px;
+    list-style: none;
     &--item {
       font-size: 16px;
       text-transform: uppercase;
       font-family: $text-font;
+      line-height: 30px;
       color: white;
       text-decoration-line: none;
       padding: 10px;
     }
   }
   &__copy {
+    @media all and (min-width: 768px) {
+      order: -1;
+    }
     &--item {
       color: white;
       font-family: $text-font;
