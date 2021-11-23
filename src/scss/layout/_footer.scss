@@ -1,15 +1,21 @@
 .footer__arrow {
+  width: 100vw;
+  position: absolute;
+  transform: translate(0, -20px);
   display: flex;
   justify-content: center;
   align-items: center;
   &--circle {
+    background-color: white;
+    border-radius: 50%;
     width: 45px;
     height: 45px;
-    border-radius: 45px;
-    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
   }
   &--img {
-    border: 2px solid #f26002;
+    width: 24px;
   }
 }
 .footer {
