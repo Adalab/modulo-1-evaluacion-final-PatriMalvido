@@ -20,12 +20,10 @@
     @media all and (min-width: 768px) {
       font-size: 80px;
       line-height: 106px;
-    
     }
-    @media all and (min-width:1200px){
+    @media all and (min-width: 1200px) {
       font-size: 100px;
       line-height: 132px;
-
     }
   }
   &__text {
@@ -49,6 +47,7 @@
   background-color: #0271bc;
   top: 0;
   left: 0;
+
   &__icon {
     padding: 10px;
   }
