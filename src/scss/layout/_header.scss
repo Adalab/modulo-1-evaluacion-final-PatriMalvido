@@ -16,12 +16,22 @@
     line-height: 55px;
     text-align: center;
     margin-bottom: 10px;
+    word-spacing: 100vw;
+    @media all and (min-width: 768px) {
+      font-size: 80px;
+      line-height: 106px;
+      margin-bottom: 20px;
+    }
   }
   &__text {
     color: $title-text;
     font-family: $text-font;
     font-size: 16px;
     margin-bottom: 45px;
+    @media all and (min-width: 768px) {
+      font-size: 24px;
+      margin-bottom: 30px;
+    }
   }
 }
 .menu {
