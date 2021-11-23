@@ -1,0 +1,39 @@
+.footer__arrow {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  &--circle {
+    width: 45px;
+    height: 45px;
+    border-radius: 45px;
+    background-color: white;
+  }
+  &--img {
+    border: 2px solid #f26002;
+  }
+}
+.footer {
+  &__background {
+    background-color: $color-footer;
+  }
+  text-align: center;
+  padding: 60px 0 45px 0;
+  &__links {
+    padding-bottom: 30px;
+    &--item {
+      font-size: 16px;
+      text-transform: uppercase;
+      font-family: $text-font;
+      color: white;
+      text-decoration-line: none;
+    }
+  }
+  &__copy {
+    &--item {
+      color: white;
+      font-family: $text-font;
+      font-size: 14px;
+      line-height: 30px;
+    }
+  }
+}
