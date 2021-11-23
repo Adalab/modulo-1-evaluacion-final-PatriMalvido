@@ -7,8 +7,9 @@
   justify-content: flex-end;
   align-items: center;
   padding: 53px;
+
   &__title {
-    color: white;
+    color: $title-text;
     font-family: $title-font;
     text-transform: uppercase;
     font-size: 42px;
@@ -17,7 +18,7 @@
     margin-bottom: 10px;
   }
   &__text {
-    color: white;
+    color: $title-text;
     font-family: $text-font;
     font-size: 16px;
     margin-bottom: 45px;

@@ -1,0 +1,40 @@
+.looking {
+  display: block;
+
+  &__tips {
+    color: $color-tips;
+    font-size: 14px;
+    font-family: $text-font;
+    line-height: 30px;
+  }
+  &__title {
+    font-size: 24px;
+    font-family: $title-font;
+    line-height: 30px;
+    text-transform: capitalize;
+    color: $primary-text;
+  }
+  &__text {
+    font-size: 18px;
+    font-family: $text-font;
+    line-height: 30px;
+    color: $secundary-text;
+  }
+  &__button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 76px;
+    height: 45px;
+    border-radius: 22.5px;  
+    border: 2px solid #f26002;
+  }
+}
+.go-button {
+  text-transform: capitalize;
+  text-decoration: none;
+  font-family: $text-font;
+  font-size: 20px;
+  line-height: 45px;
+  color: #f26002;
+}
