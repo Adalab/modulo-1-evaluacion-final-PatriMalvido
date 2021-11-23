@@ -42,3 +42,50 @@
   line-height: 45px;
   color: #f26002;
 }
+/*------------------------------*/
+.reasons {
+  background-color: $color-reasons;
+  padding-top: 30px;
+  padding-bottom: 60px;
+  text-align: center;
+  &__title {
+    font-family: $title-font;
+    font-size: 24px;
+    padding: 0 15px;
+    margin-bottom: 45px;
+    text-transform: capitalize;
+  }
+}
+.reasons-section {
+  display: grid;
+  grid-template-columns: 180px;
+  grid-template-rows: 1fr 1fr 1fr;
+  justify-content: center;
+  align-items: center;
+  &__container {
+    &--title {
+      font-size: 18px;
+      font-family: $title-font;
+      line-height: 30px;
+    }
+    &--text {
+      font-size: 18px;
+      font-family: $text-font;
+      line-height: 30px;
+      margin-bottom: 45px;
+    }
+  }
+}
+.reasons-button {
+  display: flex;
+  justify-content: center;
+  background-color: $color-button;
+  width: 184px;
+  height: 45px;
+  border-radius: 22.5px;
+  text-decoration-line: none;
+  color: white;
+  font-size: 20px;
+  line-height: 45px;
+  font-family: $text-font;
+}
