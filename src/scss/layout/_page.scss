@@ -1,5 +1,6 @@
 .looking {
   display: block;
+  margin: 30px 15px;
 
   &__tips {
     color: $color-tips;
@@ -13,12 +14,14 @@
     line-height: 30px;
     text-transform: capitalize;
     color: $primary-text;
+    margin-bottom: 15px;
   }
   &__text {
     font-size: 18px;
     font-family: $text-font;
     line-height: 30px;
     color: $secundary-text;
+    margin-bottom: 30px;
   }
   &__button {
     display: flex;
@@ -26,8 +29,9 @@
     align-items: center;
     width: 76px;
     height: 45px;
-    border-radius: 22.5px;  
+    border-radius: 22.5px;
     border: 2px solid #f26002;
+    margin-bottom: 45px;
   }
 }
 .go-button {
