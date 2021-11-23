@@ -72,6 +72,20 @@
       font-size: 26px;
     }
   }
+  &__button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: $color-button;
+    width: 184px;
+    height: 45px;
+    border-radius: 22.5px;
+    text-decoration-line: none;
+    color: white;
+    font-size: 20px;
+    line-height: 45px;
+    font-family: $text-font;
+  }
 }
 
 .reasons-section {
@@ -105,9 +119,11 @@
     }
   }
 }
+/*
 .reasons-button {
   display: flex;
   justify-content: center;
+  align-items: center;
   background-color: $color-button;
   width: 184px;
   height: 45px;
@@ -118,3 +134,4 @@
   line-height: 45px;
   font-family: $text-font;
 }
+*/
