@@ -4,7 +4,7 @@
   transform: translate(0, -20px);
   display: flex;
   justify-content: center;
-  animation: movement 1.5s ease 1s infinite alternate;
+  animation: movement .4s ease 1s infinite alternate;
 
   &--circle {
     background-color: $title-text;
