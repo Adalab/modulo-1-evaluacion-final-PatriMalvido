@@ -32,7 +32,6 @@ src
     └─ pages
 
 ```
-
 ## Visualizar el ejercicio
 
 Para ver la página hay que acceder a través del **enlace**, situado en la descripción del respositorio.
