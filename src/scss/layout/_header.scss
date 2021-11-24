@@ -7,6 +7,12 @@
   justify-content: flex-end;
   align-items: center;
   padding: 53px;
+  @media all and (min-width: 768px) {
+    padding: 45px;
+  }
+  @media all and (min-width: 1024px) {
+    padding: 13px;
+  }
 
   &__title {
     color: $title-text;
@@ -21,7 +27,7 @@
       font-size: 80px;
       line-height: 106px;
     }
-    @media all and (min-width: 1200px) {
+    @media all and (min-width: 1024px) {
       font-size: 100px;
       line-height: 132px;
     }
@@ -58,6 +64,6 @@
   width: 45px;
   height: 45px;
   border-radius: 45px;
-  background-color: white;
+  background-color:$title-text;
   justify-content: center;
 }

@@ -10,6 +10,9 @@
     font-size: 14px;
     font-family: $text-font;
     line-height: 30px;
+    @media all and (min-width: 1024px) {
+      font-size: 16px;
+    }
   }
   &__title {
     font-size: 24px;
@@ -21,6 +24,9 @@
     @media all and (min-width: 768px) {
       font-size: 26px;
       margin-bottom: 30px;
+    }
+    @media all and (min-width: 1024px) {
+      font-size: 32px;
     }
   }
   &__text {
@@ -46,6 +52,9 @@
       margin-bottom: 60px;
       width: 91px;
     }
+    @media all and (min-width: 1024px) {
+      width: 160px;
+    }
   }
 }
 .go-button {
@@ -56,12 +65,17 @@
   line-height: 45px;
   color: #f26002;
   padding: 10px;
+  transition: color ease 2s;
+  &:hover {
+    color: $color-footer;
+    font-weight: bold;
+  }
 }
 /*------------------------------*/
 .reasons {
   background-color: $color-reasons;
   text-align: center;
-  padding: 30px 45px 60px 30px;
+  padding: 45px 30px 60px 30px;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -75,6 +89,9 @@
     @media all and (min-width: 768px) {
       font-size: 26px;
     }
+    @media all and (min-width: 1024px) {
+      font-size: 32px;
+    }
   }
   &__button {
     display: flex;
@@ -85,16 +102,22 @@
     height: 45px;
     border-radius: 22.5px;
     text-decoration-line: none;
-    color: white;
+    color: $title-text;
     font-size: 20px;
     line-height: 45px;
     font-family: $text-font;
     transition: background-color ease 2s, color ease 2s, border ease 2s;
 
     &:hover {
-      background-color: white;
+      background-color: $title-text;
       color: $color-button;
       border: 2px solid $color-button;
+    }
+    @media all and (min-width: 768px) {
+      width: 210px;
+    }
+    @media all and (min-width: 1024px) {
+      width: 255px;
     }
   }
 }
@@ -104,7 +127,7 @@
   grid-template-columns: 180px;
   grid-template-rows: 1fr 1fr 1fr;
   justify-content: center;
-  align-items: center;
+  align-items: start;
   @media all and (min-width: 768px) {
     grid-template-columns: 1fr 1fr 1fr;
     grid-template-rows: 1fr;

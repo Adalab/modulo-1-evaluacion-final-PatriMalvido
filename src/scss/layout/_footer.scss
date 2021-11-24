@@ -5,7 +5,7 @@
   display: flex;
   justify-content: center;
   &--circle {
-    background-color: white;
+    background-color: $title-text;
     border-radius: 50%;
     width: 45px;
     height: 45px;
@@ -45,7 +45,7 @@
       text-transform: uppercase;
       font-family: $text-font;
       line-height: 30px;
-      color: white;
+      color: $title-text;
       text-decoration-line: none;
       padding: 10px;
     }
@@ -55,7 +55,7 @@
       order: -1;
     }
     &--item {
-      color: white;
+      color: $title-text;
       font-family: $text-font;
       font-size: 14px;
       line-height: 30px;
