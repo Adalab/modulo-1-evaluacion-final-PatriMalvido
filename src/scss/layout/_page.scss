@@ -153,3 +153,25 @@
     }
   }
 }
+.special {
+  display: none;
+  @media all and (min-width: 768px) {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    background-color: $color-button;
+
+    &__title {
+      text-align: center;
+      width: 100%;
+      padding-bottom: 10px;
+    }
+    &__subtittle {
+      width: 50%;
+    }
+    &__text {
+      width: 50%;
+    }
+  }
+}
